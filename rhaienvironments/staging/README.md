@@ -54,3 +54,27 @@ sName=Interactive-llama-3-1-8b-instruct, allocDiff={  -> none, 0 -> 0, 0 }
 sName=Interactive-granite-3-1-8b-starter, allocDiff={  -> L40S, 0 -> 2, 64 } 
 Solution time: 0 msec
 ```
+
+How I have ran experiments:
+```
+podman build --arch amd64 -f Dockerfile -t tylertestrun
+podman run -it --entrypoint bash localhost/tylertestrun:latest
+root@cbef3cce4d54:/# /bin/demomain 
+Solution: 
+c=Interactive; m=mixtral-8x7b-instruct-v0-1; rate=120; tk=1024; sol=1, alloc={acc=8xH200; num=1; maxBatch=32; cost=40, val=44, servTime=2.3485954, waitTime=0, rho=0.9889076}; slo-itl=40, slo-ttw=500, slo-tps=0 
+s=Interactive-llama-3-3-70b-instruct; c=Interactive; m=llama-3-3-70b-instruct; no feasible allocation! 
+c=Interactive; m=mistral-7b-instruct-v0-3; rate=480; tk=1024; sol=1, alloc={acc=L40S; num=4; maxBatch=16; cost=128, val=140.8, servTime=5.1415453, waitTime=144.8169, rho=0.99991876}; slo-itl=40, slo-ttw=500, slo-tps=0 
+s=Interactive-llama-3-1-8b-instruct; c=Interactive; m=llama-3-1-8b-instruct; no feasible allocation! 
+c=Interactive; m=granite-3-1-8b-starter; rate=480; tk=1024; sol=1, alloc={acc=L40S; num=2; maxBatch=16; cost=64, val=70.4, servTime=2.5707726, waitTime=72.40845, rho=0.99991876}; slo-itl=40, slo-ttw=500, slo-tps=0 
+AllocationByType: 
+name=H200, count=8, limit=8, cost=40 
+name=L40S, count=6, limit=6, cost=192 
+totalCost=232 
+Solver: 
+sName=Interactive-mixtral-8x7b-instruct-v0-1, allocDiff={  -> 8xH200, 0 -> 1, 40 } 
+sName=Interactive-llama-3-3-70b-instruct, allocDiff={  -> none, 0 -> 0, 0 } 
+sName=Interactive-mistral-7b-instruct-v0-3, allocDiff={  -> L40S, 0 -> 4, 128 } 
+sName=Interactive-llama-3-1-8b-instruct, allocDiff={  -> none, 0 -> 0, 0 } 
+sName=Interactive-granite-3-1-8b-starter, allocDiff={  -> L40S, 0 -> 2, 64 } 
+Solution time: 0 msec
+```
