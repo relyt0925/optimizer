@@ -78,3 +78,9 @@ sName=Interactive-llama-3-1-8b-instruct, allocDiff={  -> none, 0 -> 0, 0 }
 sName=Interactive-granite-3-1-8b-starter, allocDiff={  -> L40S, 0 -> 2, 64 } 
 Solution time: 0 msec
 ```
+
+Raw solution data:
+
+```
+{"allocations":{"Interactive-granite-3-1-8b-starter":{"accelerator":"L40S","numReplicas":2,"maxBatch":16,"cost":64,"itlAverage":2.5707726,"waitAverage":72.40845,"load":{"arrivalRate":480,"avgLength":1024,"arrivalCOV":0,"serviceCOV":0}},"Interactive-mistral-7b-instruct-v0-3":{"accelerator":"L40S","numReplicas":4,"maxBatch":16,"cost":128,"itlAverage":5.1415453,"waitAverage":144.8169,"load":{"arrivalRate":480,"avgLength":1024,"arrivalCOV":0,"serviceCOV":0}},"Interactive-mixtral-8x7b-instruct-v0-1":{"accelerator":"8xH200","numReplicas":1,"maxBatch":32,"cost":40,"itlAverage":2.3485954,"waitAverage":0,"load":{"arrivalRate":120,"avgLength":1024,"arrivalCOV":0,"serviceCOV":0}}}}
+```
