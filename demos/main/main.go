@@ -13,11 +13,11 @@ import (
 )
 
 func main() {
-	size := "large"
+	size := "staging"
 	if len(os.Args) > 1 {
 		size = os.Args[1]
 	}
-	prefix := "../../sample-data/" + size + "/"
+	prefix := "/etc/rhaienvironments/" + size + "/"
 	fn_acc := prefix + "accelerator-data.json"
 	fn_cap := prefix + "capacity-data.json"
 	fn_mod := prefix + "model-data.json"
