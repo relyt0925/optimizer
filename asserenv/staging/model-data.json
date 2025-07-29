@@ -1,0 +1,94 @@
+{
+  "models": [
+    {
+      "name": "granite-3-1-8b-starter",
+      "acc": "L40S",
+      "accCount": 1,
+      "alpha": 6.0,
+      "beta": 0.5,
+      "maxBatchSize": 24,
+      "atTokens": 512
+    },
+    {
+      "name": "granite-3-1-8b-starter",
+      "acc": "H200",
+      "accCount": 1,
+      "alpha": 1.2,
+      "beta": 0.1,
+      "maxBatchSize": 96,
+      "atTokens": 512
+    },
+    {
+      "name": "llama-3-1-8b-instruct",
+      "acc": "L40S",
+      "accCount": 1,
+      "alpha": 6.0,
+      "beta": 0.5,
+      "maxBatchSize": 24,
+      "atTokens": 512
+    },
+    {
+      "name": "llama-3-1-8b-instruct",
+      "acc": "H200",
+      "accCount": 1,
+      "alpha": 1.2,
+      "beta": 0.1,
+      "maxBatchSize": 96,
+      "atTokens": 512
+    },
+    {
+      "name": "mistral-7b-instruct-v0-3",
+      "acc": "L40S",
+      "accCount": 1,
+      "alpha": 6.0,
+      "beta": 0.5,
+      "maxBatchSize": 24,
+      "atTokens": 512
+    },
+    {
+      "name": "mistral-7b-instruct-v0-3",
+      "acc": "H200",
+      "accCount": 1,
+      "alpha": 1.2,
+      "beta": 0.1,
+      "maxBatchSize": 96,
+      "atTokens": 512
+    },
+    {
+      "name": "llama-3-3-70b-instruct",
+      "acc": "2xH200",
+      "accCount": 1,
+      "alpha": 6.0,
+      "beta": 0.2,
+      "maxBatchSize": 64,
+      "atTokens": 512
+    },
+    {
+      "name": "llama-3-3-70b-instruct",
+      "acc": "4xH200",
+      "accCount": 1,
+      "alpha": 4.0,
+      "beta": 0.13,
+      "maxBatchSize": 96,
+      "atTokens": 512
+    },
+    {
+      "name": "mixtral-8x7b-instruct-v0-1",
+      "acc": "H200",
+      "accCount": 1,
+      "alpha": 4.0,
+      "beta": 0.15,
+      "maxBatchSize": 64,
+      "atTokens": 512
+    },
+    {
+      "name": "mixtral-8x7b-instruct-v0-1",
+      "acc": "2xH200",
+      "accCount": 1,
+      "alpha": 2.67,
+      "beta": 0.05,
+      "maxBatchSize": 96,
+      "atTokens": 512
+    }
+  ]
+}
