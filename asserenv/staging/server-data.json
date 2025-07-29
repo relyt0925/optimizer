@@ -1,0 +1,59 @@
+{
+    "servers": [
+        {
+            "name": "Interactive-mixtral-8x7b-instruct-v0-1",
+            "class": "Interactive",
+            "model": "mixtral-8x7b-instruct-v0-1",
+            "currentAlloc": {
+                "load": {
+                    "arrivalRate": 120,
+                    "avgLength": 1024
+                }
+            }
+        },
+        {
+            "name": "Interactive-llama-3-3-70b-instruct",
+            "class": "Interactive",
+            "model": "llama-3-3-70b-instruct",
+            "currentAlloc": {
+                "load": {
+                    "arrivalRate": 120,
+                    "avgLength": 1536
+                }
+            }
+        },
+        {
+            "name": "Interactive-mistral-7b-instruct-v0-3",
+            "class": "Interactive",
+            "model": "mistral-7b-instruct-v0-3",
+            "currentAlloc": {
+                "load": {
+                    "arrivalRate": 90,
+                    "avgLength": 256
+                }
+            }
+        },
+        {
+            "name": "Interactive-llama-3-1-8b-instruct",
+            "class": "Interactive",
+            "model": "llama-3-1-8b-instruct",
+            "currentAlloc": {
+                "load": {
+                    "arrivalRate": 120,
+                    "avgLength": 512
+                }
+            }
+        },
+        {
+            "name": "Interactive-granite-3-1-8b-starter",
+            "class": "Interactive",
+            "model": "granite-3-1-8b-starter",
+            "currentAlloc": {
+                "load": {
+                    "arrivalRate": 150,
+                    "avgLength": 1024
+                }
+            }
+        }
+    ]
+}

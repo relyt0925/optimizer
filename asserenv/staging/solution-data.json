@@ -1,0 +1,74 @@
+{
+    "allocations": {
+        "Interactive-granite-3-1-8b-starter": {
+            "accelerator": "H200",
+            "numReplicas": 1,
+            "maxBatch": 48,
+            "cost": 120,
+            "itlAverage": 1.7473118,
+            "waitAverage": 0,
+            "load": {
+                "arrivalRate": 150,
+                "avgLength": 1024,
+                "arrivalCOV": 0,
+                "serviceCOV": 0
+            }
+        },
+        "Interactive-llama-3-1-8b-instruct": {
+            "accelerator": "L40S",
+            "numReplicas": 1,
+            "maxBatch": 24,
+            "cost": 32,
+            "itlAverage": 13.268162,
+            "waitAverage": 83.21289,
+            "load": {
+                "arrivalRate": 120,
+                "avgLength": 512,
+                "arrivalCOV": 0,
+                "serviceCOV": 0
+            }
+        },
+        "Interactive-llama-3-3-70b-instruct": {
+            "accelerator": "4xH200",
+            "numReplicas": 1,
+            "maxBatch": 32,
+            "cost": 480,
+            "itlAverage": 6.8634706,
+            "waitAverage": 104.65332,
+            "load": {
+                "arrivalRate": 120,
+                "avgLength": 1536,
+                "arrivalCOV": 0,
+                "serviceCOV": 0
+            }
+        },
+        "Interactive-mistral-7b-instruct-v0-3": {
+            "accelerator": "L40S",
+            "numReplicas": 1,
+            "maxBatch": 48,
+            "cost": 32,
+            "itlAverage": 8.044555,
+            "waitAverage": 0,
+            "load": {
+                "arrivalRate": 90,
+                "avgLength": 256,
+                "arrivalCOV": 0,
+                "serviceCOV": 0
+            }
+        },
+        "Interactive-mixtral-8x7b-instruct-v0-1": {
+            "accelerator": "H200",
+            "numReplicas": 1,
+            "maxBatch": 32,
+            "cost": 120,
+            "itlAverage": 5.990156,
+            "waitAverage": 0.08544922,
+            "load": {
+                "arrivalRate": 120,
+                "avgLength": 1024,
+                "arrivalCOV": 0,
+                "serviceCOV": 0
+            }
+        }
+    }
+}

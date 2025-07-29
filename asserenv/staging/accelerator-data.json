@@ -1,0 +1,36 @@
+{
+    "accelerators": [
+        {
+            "name": "L40S",
+            "type": "L40S",
+            "multiplicity": 1,
+            "memSize": 48,
+            "memBW": 864,
+            "cost": 32.00
+        },
+        {
+            "name": "H200",
+            "type": "H200",
+            "multiplicity": 1,
+            "memSize": 141,
+            "memBW": 4800,
+            "cost": 120.00
+        },
+        {
+            "name": "2xH200",
+            "type": "H200",
+            "multiplicity": 2,
+            "memSize": 282,
+            "memBW": 9600,
+            "cost": 240.00
+        },
+        {
+            "name": "4xH200",
+            "type": "H200",
+            "multiplicity": 4,
+            "memSize": 564,
+            "memBW": 19200,
+            "cost": 480.00
+        }
+    ]
+}
