@@ -1,12 +1,12 @@
 {
-    "count": [
-        {
-            "type": "L40S",
-            "count": 6
-        },
-        {
-            "type": "H200",
-            "count": 8
-        }
-    ]
+  "count": [
+    {
+      "type": "l40s",
+      "count": 6
+    },
+    {
+      "type": "h200",
+      "count": 8
+    }
+  ]
 }

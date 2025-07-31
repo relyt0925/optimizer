@@ -1,49 +1,166 @@
 {
-    "models": [
-      {
-        "name": "granite-3-1-8b-starter",
-        "acc": "L40S",
-        "accCount": 1,
-        "alpha": 2.0,
-        "beta": 0.05,
-        "maxBatchSize": 32,
-        "atTokens": 512
-      },
-      {
-        "name": "llama-3-1-8b-instruct",
-        "acc": "L40S",
-        "accCount": 1,
-        "alpha": 1.5,
-        "beta": 0.04,
-        "maxBatchSize": 48,
-        "atTokens": 512
-      },
-      {
-        "name": "mistral-7b-instruct-v0-3",
-        "acc": "L40S",
-        "accCount": 1,
-        "alpha": 4.0,
-        "beta": 0.10,
-        "maxBatchSize": 32,
-        "atTokens": 512
-      },
-      {
-        "name": "llama-3-3-70b-instruct",
-        "acc": "8xH200",
-        "accCount": 1,
-        "alpha": 2.0,
-        "beta": 0.06,
-        "maxBatchSize": 64,
-        "atTokens": 512
-      },
-      {
-        "name": "mixtral-8x7b-instruct-v0-1",
-        "acc": "8xH200",
-        "accCount": 1,
-        "alpha": 2.0,
-        "beta": 0.06,
-        "maxBatchSize": 64,
-        "atTokens": 512
-      }
-    ]
+  "models": [
+    {
+      "name": "granite-3-1-8b-starter",
+      "acc": "us-east-2/gx3.24x120.l40s/l40s/1",
+      "accCount": 1,
+      "alpha": 2,
+      "beta": 0.06,
+      "maxBatchSize": 64,
+      "atTokens": 512
+    },
+    {
+      "name": "granite-3-1-8b-starter",
+      "acc": "us-east-1/gx3.24x120.l40s/l40s/1",
+      "accCount": 1,
+      "alpha": 2,
+      "beta": 0.06,
+      "maxBatchSize": 64,
+      "atTokens": 512
+    },
+    {
+      "name": "granite-3-1-8b-starter",
+      "acc": "us-east-3/gx3d.160x1792.8h200/h200/1",
+      "accCount": 1,
+      "alpha": 2,
+      "beta": 0.06,
+      "maxBatchSize": 64,
+      "atTokens": 512
+    },
+    {
+      "name": "granite-3-1-8b-starter",
+      "acc": "us-east-3/gx3d.160x1792.8h200/h200/2",
+      "accCount": 1,
+      "alpha": 2,
+      "beta": 0.06,
+      "maxBatchSize": 64,
+      "atTokens": 512
+    },
+    {
+      "name": "granite-3-1-8b-starter",
+      "acc": "us-east-3/gx3d.160x1792.8h200/h200/3",
+      "accCount": 1,
+      "alpha": 2,
+      "beta": 0.06,
+      "maxBatchSize": 64,
+      "atTokens": 512
+    },
+    {
+      "name": "granite-3-1-8b-starter",
+      "acc": "us-east-3/gx3d.160x1792.8h200/h200/4",
+      "accCount": 1,
+      "alpha": 2,
+      "beta": 0.06,
+      "maxBatchSize": 64,
+      "atTokens": 512
+    },
+    {
+      "name": "granite-3-1-8b-starter",
+      "acc": "us-east-3/gx3d.160x1792.8h200/h200/5",
+      "accCount": 1,
+      "alpha": 2,
+      "beta": 0.06,
+      "maxBatchSize": 64,
+      "atTokens": 512
+    },
+    {
+      "name": "granite-3-1-8b-starter",
+      "acc": "us-east-3/gx3d.160x1792.8h200/h200/6",
+      "accCount": 1,
+      "alpha": 2,
+      "beta": 0.06,
+      "maxBatchSize": 64,
+      "atTokens": 512
+    },
+    {
+      "name": "granite-3-1-8b-starter",
+      "acc": "us-east-3/gx3d.160x1792.8h200/h200/7",
+      "accCount": 1,
+      "alpha": 2,
+      "beta": 0.06,
+      "maxBatchSize": 64,
+      "atTokens": 512
+    },
+    {
+      "name": "granite-3-1-8b-starter",
+      "acc": "us-east-3/gx3d.160x1792.8h200/h200/8",
+      "accCount": 1,
+      "alpha": 2,
+      "beta": 0.06,
+      "maxBatchSize": 64,
+      "atTokens": 512
+    },
+    {
+      "name": "mixtral-8x7b-instruct-v0-1",
+      "acc": "us-east-3/gx3d.160x1792.8h200/h200/1",
+      "accCount": 1,
+      "alpha": 2,
+      "beta": 0.06,
+      "maxBatchSize": 64,
+      "atTokens": 512
+    },
+    {
+      "name": "mixtral-8x7b-instruct-v0-1",
+      "acc": "us-east-3/gx3d.160x1792.8h200/h200/2",
+      "accCount": 1,
+      "alpha": 2,
+      "beta": 0.06,
+      "maxBatchSize": 64,
+      "atTokens": 512
+    },
+    {
+      "name": "mixtral-8x7b-instruct-v0-1",
+      "acc": "us-east-3/gx3d.160x1792.8h200/h200/3",
+      "accCount": 1,
+      "alpha": 2,
+      "beta": 0.06,
+      "maxBatchSize": 64,
+      "atTokens": 512
+    },
+    {
+      "name": "mixtral-8x7b-instruct-v0-1",
+      "acc": "us-east-3/gx3d.160x1792.8h200/h200/4",
+      "accCount": 1,
+      "alpha": 2,
+      "beta": 0.06,
+      "maxBatchSize": 64,
+      "atTokens": 512
+    },
+    {
+      "name": "mixtral-8x7b-instruct-v0-1",
+      "acc": "us-east-3/gx3d.160x1792.8h200/h200/5",
+      "accCount": 1,
+      "alpha": 2,
+      "beta": 0.06,
+      "maxBatchSize": 64,
+      "atTokens": 512
+    },
+    {
+      "name": "mixtral-8x7b-instruct-v0-1",
+      "acc": "us-east-3/gx3d.160x1792.8h200/h200/6",
+      "accCount": 1,
+      "alpha": 2,
+      "beta": 0.06,
+      "maxBatchSize": 64,
+      "atTokens": 512
+    },
+    {
+      "name": "mixtral-8x7b-instruct-v0-1",
+      "acc": "us-east-3/gx3d.160x1792.8h200/h200/7",
+      "accCount": 1,
+      "alpha": 2,
+      "beta": 0.06,
+      "maxBatchSize": 64,
+      "atTokens": 512
+    },
+    {
+      "name": "mixtral-8x7b-instruct-v0-1",
+      "acc": "us-east-3/gx3d.160x1792.8h200/h200/8",
+      "accCount": 1,
+      "alpha": 2,
+      "beta": 0.06,
+      "maxBatchSize": 64,
+      "atTokens": 512
+    }
+  ]
 }

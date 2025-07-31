@@ -1,39 +1,18 @@
 {
-    "serviceClasses": [
-        {
-            "name": "Interactive",
-            "model": "mixtral-8x7b-instruct-v0-1",
-            "priority": 1,
-            "slo-itl": 40,
-            "slo-ttw": 500
-        },
-        {
-            "name": "Interactive",
-            "model": "llama-3-3-70b-instruct",
-            "priority": 1,
-            "slo-itl": 40,
-            "slo-ttw": 500
-        },
-        {
-            "name": "Interactive",
-            "model": "mistral-7b-instruct-v0-3",
-            "priority": 1,
-            "slo-itl": 40,
-            "slo-ttw": 500
-        },
-        {
-            "name": "Interactive",
-            "model": "llama-3-1-8b-instruct",
-            "priority": 1,
-            "slo-itl": 40,
-            "slo-ttw": 500
-        },
-        {
-            "name": "Interactive",
-            "model": "granite-3-1-8b-starter",
-            "priority": 1,
-            "slo-itl": 40,
-            "slo-ttw": 500
-        }
-    ]
+  "serviceClasses": [
+    {
+      "name": "Interactive",
+      "model": "granite-3-1-8b-starter",
+      "priority": 1,
+      "slo-itl": 10,
+      "slo-ttw": 500
+    },
+    {
+      "name": "Interactive",
+      "model": "mixtral-8x7b-instruct-v0-1",
+      "priority": 1,
+      "slo-itl": 10,
+      "slo-ttw": 500
+    }
+  ]
 }
